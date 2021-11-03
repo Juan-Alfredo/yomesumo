@@ -1,0 +1,15 @@
+<svg id="Capa_1" data-name="Capa 1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320.92 300.94">
+    <defs>
+        <style>.cls-1{fill:#fce542;}.cls-2{fill:url(#Degradado_sin_nombre_210);}</style>
+        <radialGradient id="Degradado_sin_nombre_210" cx="166.3" cy="151.48" r="110.21" gradientUnits="userSpaceOnUse">
+            <stop offset="0.51" stop-color="#f0ea4a"/>
+            <stop offset="1" stop-color="#fff9c0"/>
+        </radialGradient>
+    </defs>
+    <title>Elementos de naturalezaRGB</title>
+    <image width="1354" height="1354" transform="translate(3.81 -11.05) scale(0.24)" xlink:href="data"/>
+    <path class="cls-1" d="M214.89,34.16A104.92,104.92,0,0,1,166.3,46a105,105,0,0,1-48.6-11.88,104.89,104.89,0,0,1-26,42.76,105,105,0,0,1-42.76,26,104.91,104.91,0,0,1,11.87,48.59A105,105,0,0,1,49,200.08a105,105,0,0,1,42.76,26,104.89,104.89,0,0,1,26,42.76,105.41,105.41,0,0,1,97.19,0,105.36,105.36,0,0,1,68.73-68.72,105.33,105.33,0,0,1,0-97.19,105,105,0,0,1-42.76-26A105,105,0,0,1,214.89,34.16Z"/>
+    <circle class="cls-2" cx="166.3" cy="151.48" r="95.75"/>
+</svg>

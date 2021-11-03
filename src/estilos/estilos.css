@@ -1,0 +1,286 @@
+/*--------------principal---------------------------*/
+.cabecera {
+  position: relative;
+}
+
+/*----------------menu-------------------------------*/
+
+.menu {
+  position: fixed;
+  z-index: 999;
+  right: 10px;
+}
+
+.boton1m {
+  background-image: url("../assets/madero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.flotante{
+  -webkit-animation: rotate-scale-up 0.8s linear both;
+  animation: rotate-scale-up 0.8s linear both;
+}
+@-webkit-keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+@keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+
+
+
+/*------------------capa1------------------------------*/
+.fondo1{
+  background-image: url("../assets/nuevofondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*--animaciones--*/
+.sol {
+  width: 20%;
+  height: auto;
+  -webkit-animation: rotate-center 2s linear infinite both;
+  animation: rotate-center 2s linear infinite both;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+#nube1 {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  animation: movimiento1 15s linear infinite;
+}
+
+@keyframes movimiento1 {
+  from {
+    margin-left: 90%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+#nube2 {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  animation: movimiento2 20s linear infinite;
+}
+
+@keyframes movimiento2 {
+  from {
+    margin-left: 45%;
+  }
+  to {
+    margin-left: -50%;
+  }
+}
+/*-------------------*/
+
+.nube4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  -webkit-animation: heartbeat 3s ease-in-out infinite both;
+	        animation: heartbeat 3s ease-in-out infinite both;
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+
+.jaula {
+  align-self: center;
+  padding-top: 5%;
+}
+#bird {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.jardin {
+  align-self: center;
+}
+#arbusto {
+  position: relative;
+  width: 60%;
+  height: auto;
+}
+#planta1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.fondoplanta {
+  position: relative;
+  align-items: center;
+  padding: 2% 0 4% 0;
+}
+/*--------------------------capa2-----------------------------*/
+.contend2 {
+  padding: 1%;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 2%;
+}
+.tvbox{
+  width: 400px;
+  height: 400px;
+  background-color: #963e0c;
+  border-radius: 1%;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:center;
+  margin-left: 1%;
+  margin-right: 1%;
+  min-width: 410px;
+}
+.caja{
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.tvbox, .caja{
+  flex: 1 0 12em;
+}
+.youtube{
+  width: 100%;
+  height: 90%;
+  border-radius: 1%;
+}
+.btntv{
+  margin-top: 1%;
+}
+
+
+/*-------------------------------------Capa3---------------------------------*/
+
+.florbase{
+  width: 100%;
+  height: auto;
+}
+.granja{
+  background-color: lightseagreen;
+}
+
+
+
+.zindex{
+  z-index: 11;
+}
